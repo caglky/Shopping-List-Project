@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Gemstones&family=Quicksand:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Georgia", serif;
+  background: #643ea7;
+  color: #ffffff;
+}
+.app {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+h1 {
+  padding: 30px;
+  background: #4527A0;
+  text-align: center;
+
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Gill Sans" serif;
+}
+
+.form {
+  background-color: #9363a5;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.form button,
+select,
+input {
+  background-color: #EEDF7A;
+  color: #000;
+  border: none;
+  border-radius: 2rem;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]{
+  margin-right: 10px;
+}
+
+
+.list {
+  background-color: #B7B7B7;
+  color: #fff;
+  padding: 40px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list li button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #7d3232;
+}
+
+.list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  align-content: start;
+
+  list-style: none;
+  width: 50%;
+}
+
+.summary {
+  text-align: center;
+  font-weight: 700;
+  padding: 3rem 0;
+}
