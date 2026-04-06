@@ -43,7 +43,7 @@ This project is a simple but functional shopping list website built with React. 
 
 ---
 
-##Motivation
+## Motivation
 This project was built to practice React fundamentals and understand how to manage state and user interactions in a real-world scenario.
 It focuses on writing clean, reusable components and building user-friendly interface
 
