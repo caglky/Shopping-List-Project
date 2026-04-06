@@ -1,18 +1,55 @@
-# React + Vite
+## Shopping List Website 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple but functional shopping list website built with React. It allows users to manage their daily shopping in an interactive way by adding, organizing and tracking items. The focus of the project is on building clean component structure, managing state effectively and handling dynamic user inteactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features 
+- Add new items with quantity
+- Mark items as completed or uncompleted
+- Delete items from list
+- Filter items by category
+- Filter items by completion status
+- Sort items (e.g. by name or quantity)
+- Clear all items
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Key Concepts
+- React state management (useState)
+- Component-based architecture
+- Controlled inputs abd from handling
+- Event handling (onClick, onChange, etc)
+- Dynamic rendering and re-rendering
+- Filtering and sorting logic
+- Conditional renderin 
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## Setup 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository :
+   ```bash
+   git clone <repo_link>
+   cd <repo_name>
+
+2. Install dependencies :
+   ```bash
+   npm install
+   
+3. Start the app:
+   ```bash
+   npm run dev 
+
+---
+
+##Motivation
+This project was built to practice React fundamentals and understand how to manage state and user interactions in a real-world scenario.
+It focuses on writing clean, reusable components and building user-friendly interface
+
+
+
+
+
+
+
